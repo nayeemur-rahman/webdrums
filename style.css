@@ -55,6 +55,16 @@ kbd > span > span {
     box-shadow: 0 0 1rem rgb(255, 255, 128);
     transform: scale(1.1);
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 1.5px;
+}
 @media screen and (max-width: 430px){
     .key{
         position: relative;
