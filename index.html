@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Drum Kit</title>
+</head>
+<body>
+    <div id="page-container" class="center">
+        <div id="keys">
+            <div class="key center" data-key="a"><kbd class="center"><span class="center"><span>A</span></span></kbd><span class="sound center">Clap</span></div>
+            <div class="key center" data-key="s"><kbd class="center"><span class="center"><span>S</span></span></kbd><span class="sound center">Hihat</span></div>
+            <div class="key center" data-key="d"><kbd class="center"><span class="center"><span>D</span></span></kbd><span class="sound center">Kick</span></div>
+            <div class="key center" data-key="f"><kbd class="center"><span class="center"><span>F</span></span></kbd><span class="sound center">Openhat</span></div>
+            <div class="key center" data-key=" "><kbd class="center"><span class="center"><span style="font-size: 1.5rem;">Space</span></span></kbd><span class="sound center">Boom</span></div>
+            <div class="key center" data-key="h"><kbd class="center"><span class="center"><span>H</span></span></kbd><span class="sound center">Ride</span></div>
+            <div class="key center" data-key="j"><kbd class="center"><span class="center"><span>J</span></span></kbd><span class="sound center">Snare</span></div>
+            <div class="key center" data-key="k"><kbd class="center"><span class="center"><span>K</span></span></kbd><span class="sound center">Tom</span></div>
+            <div class="key center" data-key="l"><kbd class="center"><span class="center"><span>L</span></span></kbd><span class="sound center">Tink</span></div>
+        </div>
+    </div>
+    <audio src="./sounds/clap.wav" data-key="a"></audio>
+    <audio src="./sounds/hihat.wav" data-key="s"></audio>
+    <audio src="./sounds/kick.wav" data-key="d"></audio>
+    <audio src="./sounds/openhat.wav" data-key="f"></audio>
+    <audio src="./sounds/boom.wav" data-key=" "></audio>
+    <audio src="./sounds/ride.wav" data-key="h"></audio>
+    <audio src="./sounds/snare.wav" data-key="j"></audio>
+    <audio src="./sounds/tom.wav" data-key="k"></audio>
+    <audio src="./sounds/tink.wav" data-key="l"></audio>
+
+    <script src="./main.js"></script>
+</body>
+</html>
